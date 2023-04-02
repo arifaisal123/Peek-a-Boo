@@ -1,0 +1,233 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;;
+}
+
+body {
+	background-color: #0D3B66;
+}
+
+h1, h2 {
+	color: #F4D35E;
+	font-size: 4rem;
+	margin: 3%;
+	padding-top: 5%;
+	text-align: center;
+
+}
+
+h2 {
+	font-size: 1.5rem;
+	padding-top: 0;
+	padding-bottom: 2%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.door-row {
+	text-align: center;
+	margin-top: 7%;
+}
+
+.closed_door {
+	width: 40%;
+	padding: 3% 3%;
+	margin-right: 3%;
+}
+
+.closed_door:hover {
+	cursor: pointer;
+}
+
+#gameStatus {
+	display: none;
+}
+
+#howToPlay, #newGame, #playAgain {
+	background-color: #F4D35E;
+	border: 5px solid #F4D35E;
+	border-radius: 3%;
+	color: #0D3B66;
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: bold;
+	width: 30%;
+}
+
+#newGame {
+	margin: 3% 0;
+}
+
+#playAgain {
+	display: none;
+}
+
+#gameStatus {
+	color: #F4D35E;
+	margin-bottom: 2.4%;
+	font-size: 1.1rem;
+}
+
+#howToPlay:hover, #newGame:hover, #playAgain:hover {
+	cursor: pointer;
+}
+
+.button-center {
+	text-align: center;
+}
+
+.score_heading {
+	padding-bottom: 0;
+	font-size: 1.2rem;
+	margin-top: 2.4%;
+	margin-bottom: 1%;
+}
+
+#instructions {
+	padding-top: 2%;
+	padding-bottom: 0;
+	font-size: 1.2rem;
+}
+
+.instructions {
+	text-align: center;
+}
+
+table {
+	display: inline-block;
+	width: 48%;
+}
+
+th, td {
+	color: #F4D35E;
+	font-size: 1.3rem;
+	padding: 2%;
+}
+
+.main_score_table {
+	display: inline;
+}
+
+.streakHead {
+	font-size: 0.9rem;
+}
+
+.score-table {
+	text-align: center;
+}
+
+#guidelines {
+	width: 80%;
+}
+
+.instruction_number {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.instruction_text {
+	padding-left: 10%;
+	font-size: 1.1rem;
+}
+
+footer {
+	color: #F4D35E;
+	font-size: 0.8rem;
+	margin-top: 8%;
+	margin-bottom: 2%;
+	text-align: center;
+	border-top: 1px solid #F4D35E;
+	padding-top: 1%;
+}
+
+
+
+/* Medium devices (tablets, i.e.- iPad Mini, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.closed_door {
+		width: 25%;
+	}
+
+	h1 {
+		margin-top: 0;
+		padding-top: 2.5%;
+	}
+
+	.door-row {
+		margin-top: 2%;
+	}
+
+	.score_heading {
+		margin-top: 1%;
+	}
+}
+
+
+/* Medium devices (tablets, i.e.- iPad Air, 820px and up) */
+@media only screen and (min-width: 820px) {
+	.closed_door {
+		width: 30%;
+	}
+}
+
+
+/* Large devices (laptops/desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {
+	h1 {
+		padding-top: 0.5%;
+		margin-bottom: 0.5%;
+	}
+
+	.door-row {
+		margin-top: 0;
+	}
+
+	.closed_door {
+		width: 20%;
+		padding-top: 1.5%;
+		padding-bottom: 1%;
+	}
+
+	.score_heading {
+		margin-top: 0;
+	}
+
+	#instructions {
+		margin-top: 0;
+		margin-bottom: 0.5%;
+	}
+
+	#guidelines {
+		width: 50%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1920px) {
+	h1 {
+		padding-top: 1%;
+		margin-bottom: 1%;
+	}
+
+	.door-row {
+		margin-top: 1%;
+	}
+
+	.closed_door {
+		width: 21%;
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
+	}
+
+	.score_heading {
+		margin-top: 0;
+	}
+
+	#guidelines {
+		width: 40%;
+	}
+}
