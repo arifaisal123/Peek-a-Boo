@@ -122,6 +122,9 @@ th, td {
 
 #guidelines {
 	width: 80%;
+	border: 3px solid #F4D35E;
+	border-radius: 3%;
+	padding: 1%;
 }
 
 .instruction_number {
@@ -229,5 +232,9 @@ footer {
 
 	#guidelines {
 		width: 40%;
+	}
+	
+	footer {
+		margin-top: 5%;
 	}
 }
